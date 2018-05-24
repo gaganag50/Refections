@@ -1,0 +1,29 @@
+Q 	Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?	
+Ans→ to improve readability and not to clutter the history of the git log 
+
+
+
+
+Q 	How can you use the commands git log and git diff to view the history of files?
+Ans → git log shows the entire history of commits ever made to a particular repository. And git diff is used to see the differences between two commits .
+
+
+Q 	How might using version control make you more confident to make changes that could break something?
+Ans → Version control helps in restoring the older versions of the repository so that if we want older state of the project then we can go there just by first doing git log and then doing git checkout <id of the commit we want to go to>.
+
+
+Q 	Now that you have your workspace set up, what do you want to try using Git for?
+Ans→ to make Android apps.
+ 
+ 
+Q	Why git doesn’t  commit all the state of  the files in the repository when we do git init
+Ans → Bcoz of two reasons:
+1→ then we won’t be selective of what files do we want to commit.
+2→ we won’t be able to give our own message.
+ 
+ 
+
+
+
+
+

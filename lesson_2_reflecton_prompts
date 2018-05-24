@@ -1,0 +1,14 @@
+Q	What happens when you initialize a repository? Why do you need to do it?
+
+Ans --> When we  initialise a repository then a .git file is created storing all the history that should be stored. There is 0 commits as confirmed from git log. There will be some untracked files. Git does not commit all the files to the repo , bcoz then we don't have the opportunity to be selective and we will not be able to give name to our message.
+
+
+Q.	How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans --> staging area is different from working directory in the sense that it stores the list of files which we want to commit and working directory is there area where e actually store our whole local repo. It offers the user the ability to be selective to which files the user want to commit.
+
+
+Q. How can you use the staging area to make sure you have one commit per logical
+change?
+Ans --> commiting when we have done one logical change.
+
+
